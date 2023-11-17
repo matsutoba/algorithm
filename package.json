@@ -1,0 +1,28 @@
+{
+  "name": "algorithm",
+  "version": "1.0.0",
+  "description": "アルゴリズム実装練習用",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "dev": "ts-node-dev --respawn" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matsutoba/algorithm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matsutoba/algorithm/issues"
+  },
+  "homepage": "https://github.com/matsutoba/algorithm#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.2.2"
+  }
+}
